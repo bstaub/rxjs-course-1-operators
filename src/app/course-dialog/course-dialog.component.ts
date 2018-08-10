@@ -39,7 +39,14 @@ export class CourseDialogComponent implements OnInit, AfterViewInit {
 
     ngOnInit() {
 
+        // is observable see it in Editor..then see what it is.. (example for stream of values)
+        // this.form.valueChanges.subscribe(console.log);
 
+      // first stream of values
+      this.form.valueChanges
+          .pipe(
+            filter(() => this.form.valid)
+          ).subscribe(console.log);
 
     }
 
