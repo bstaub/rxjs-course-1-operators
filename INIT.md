@@ -36,3 +36,8 @@ inside `node_modules/@angular/material/prebuild-themes`.
 We can for example use the Indigo Pink theme by adding this line to our styles.css file:
 
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+# BS Material Way from Vasco
+
+see above, this is a good material example theme, with a dummy api server!
